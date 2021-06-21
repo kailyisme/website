@@ -1,0 +1,22 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "kailyis.me",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kailyisme/website.git"
+  },
+  "author": "kaily newman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kailyisme/website/issues"
+  },
+  "homepage": "https://github.com/kailyisme/website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
