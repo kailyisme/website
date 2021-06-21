@@ -1,6 +1,5 @@
-const fs = require("fs/promises");
+const rootDir = process.cwd()
 
 exports.root = async function (req, res) {
-  const indexPage = await fs.readFile("./index.html");
-  res.send(indexPage);
+  res.sendFile(rootDir + '/index.html');
 };
