@@ -1,7 +1,8 @@
 const serverApp = require("./src/serverApp");
+const { appendToLog } = require("./src/utils");
 
-const PORT = process.env.NODE_ENV === "production" ? 443 : 8080;
+const PORT = 9091;
 
 serverApp.listen(PORT, () => {
-  console.log(`Listening to port: ${PORT}`);
+  appendToLog(`Listening to port: ${PORT}`);
 });
