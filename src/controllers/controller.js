@@ -1,7 +1,8 @@
 const { httpDocsDir } = require("../constants");
+const { stdout } = require("process");
 
 exports.everyEndPoint = (req, res, next) => {
-  console.log(req.method + " " + req.url);
+  stdout.write(req.method + " " + req.url);
   next();
 };
 
