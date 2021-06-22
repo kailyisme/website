@@ -7,7 +7,7 @@ exports.everyEndPoint = (req, res, next) => {
 };
 
 exports.root = (req, res) => {
-  res.send("this is generated from node");
+  res.send(process.env);
 };
 
 exports.github = (req, res) => {
