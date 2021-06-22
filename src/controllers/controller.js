@@ -7,7 +7,7 @@ exports.everyEndPoint = (req, res, next) => {
 };
 
 exports.root = (req, res) => {
-  res.send(process.env);
+  res.send('this is running on Node');
 };
 
 exports.github = (req, res) => {
