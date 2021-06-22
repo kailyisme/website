@@ -1,5 +1,4 @@
 const serverApp = require("./src/serverApp");
-const { appendToLog } = require("./src/utils");
 const http = require("http");
 
 const PORT = 9091;
