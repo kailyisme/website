@@ -7,5 +7,12 @@ exports.everyEndPoint = (req, res, next) => {
 };
 
 exports.root = (req, res) => {
-  res.send('this is generated from node');
+  res.send("this is generated from node");
+};
+
+exports.github = (req, res) => {
+  res.redirect(301, "https://github.com/kailyisme");
+};
+exports.linkedin = (req, res) => {
+  res.redirect(301, "https://www.linkedin.com/in/kailyisme/");
 };
